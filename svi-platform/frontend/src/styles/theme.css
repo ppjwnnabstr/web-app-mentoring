@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap");
+
+:root {
+  --svi-navy-deep: #071b30;
+  --svi-navy: #0b4c8c;
+  --svi-navy-strong: #0a3a6b;
+  --svi-red: #e31e24;
+  --svi-red-strong: #c11319;
+  --svi-paper: #f6f7f9;
+  --svi-ink: #0b2033;
+  --svi-ink-soft: #5b6b7c;
+  --svi-line: #e3e7ec;
+  --svi-white: #ffffff;
+  --svi-green: #1f9d55;
+  --svi-green-bg: rgba(31, 157, 85, 0.08);
+  --svi-red-bg: rgba(227, 30, 36, 0.07);
+
+  --font-display: "Space Grotesk", "Inter", system-ui, sans-serif;
+  --font-body: "Inter", system-ui, -apple-system, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, monospace;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-body);
+  color: var(--svi-ink);
+}
+
+button {
+  font-family: inherit;
+}
+
+.svi-link {
+  color: var(--svi-navy);
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.svi-link:hover {
+  text-decoration: underline;
+}

@@ -1,5 +1,0 @@
-Django>=5.0,<6.0
-djangorestframework>=3.15
-django-cors-headers>=4.4
-Pillow>=10.0            # required for ImageField (mentor/mentee photos)
-openpyxl>=3.1           # if you import the raw Excel files directly instead of CSV
